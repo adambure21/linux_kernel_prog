@@ -1,3 +1,9 @@
+/* Author : Abhinay Dipak Ambure.
+   Email  : adambure21@gmail.com
+   Weblink: adambure21.github.io
+
+*/
+
 The main kernel module is in the param.c.
 
 Use follwing commands for respective task.
@@ -13,4 +19,11 @@ Sr.No--------Command------------------------------------------------Task--------
 																		 |
 --------------------------------------------------------------------------------------------------------------------------------------------------
 
+param.c      ----  is c code for the kernel module.
+param.ko     ----  is kernel module generated after running(make) Makefile.
+Makefile     ----  is code to automatic compile and generate .ko and some other files.
 
+To generate the .ko i.e module file, Use "make Makefile" command on terminal.
+Later above commands for respective task can be given on terminal.
+
+//Hope you enjoy the code.

@@ -1,9 +1,16 @@
+/* Author   : Abhinay Dipak Ambure.
+ * Email id : adambure21@gmail.com
+ * weblink  : adambure21.github.io
+ * 
+ */
+
+//  Normally for a c programme the runtime parameters are provided using the main(
 #include<linux/kernel.h>
 #include<linux/module.h>
 #include<linux/moduleparam.h>
 
-static long int rollno = 2013016;
-static long int totol_sub = 5;
+static long int rollno = 2013016;	//Parameters provided at runtime.
+static long int totol_sub = 5;		//Parameters provided at runtime.
 
 module_param(rollno,long,0);
 MODULE_PARM_DESC(rollno,"Roll number of Student");
