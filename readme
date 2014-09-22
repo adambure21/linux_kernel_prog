@@ -1,0 +1,16 @@
+The main kernel module is in the param.c.
+
+Use follwing commands for respective task.
+
+Sr.No--------Command------------------------------------------------Task--------------------------------------------------------------------------
+	                     															 |
+1       modinfo sample_module.ko        To display module information like author,license type,version,parameters etc.				 |	
+2       lsmod 				To display the list of modules inserted alrteady into kernel.(like ls only).				 |
+3       insmod sample_module.ko         To insert module into kernel.										 |
+4 	dmesg				To display the output of the module.Generally for c prog o/p is to STDOUT but for Kernel Module Output is|
+					given to Ring buffer.To See message from Ring Buffer use dmesg.						 |
+5	rmmod sample_module.ko 		To remove module from kernel.(after this you can give dmesg to dislay module_exit message.		 |	
+																		 |
+--------------------------------------------------------------------------------------------------------------------------------------------------
+
+
